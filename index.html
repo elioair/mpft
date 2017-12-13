@@ -1,0 +1,443 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- stylus compiled custom style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header -->
+    <div id="header">
+        <div id="header-inner">
+            <div id="logo-wrap" class="float-l close-dropdown">
+                <a href="#">
+                    <img src="http://via.placeholder.com/50x30?text=LOGO" alt="">
+                </a>
+            </div>
+            <div id="cart-wrap" class="float-r">
+                <span id="shopping-bag">
+                    <i class="fa fa-shopping-bag"></i>
+                </span>
+                <span id="shopping-amount">0 SEK</span>
+            </div>
+            <div id="header-separator"></div>
+        </div>
+        <!-- quick menu -->
+        <div id="quick-menu-wrap" class="quickmenu">
+            <a href="#" data-tab="#shirts-tab" class="qmenu-item">Shirts</a>
+            <a href="#" data-tab="#accessories-tab" class="qmenu-item">Accessories</a>
+            <a href="#" data-tab="#our-world-tab" class="qmenu-item">Our world</a>
+        </div>
+        <!-- dropdown menu -->
+        <div id="dropdown-menu" class="animated">
+            <!-- search -->
+            <form action="">
+                <div id="search-container" class="animated slideInDown">
+                    <i class="fa fa-search"></i>
+                    <input type="text">
+                </div>
+            </form>
+            <!-- quick menu dropped-->
+            <div id="quick-menu-wrap" class="quickmenu animated slideInDown">
+                <a href="#" data-tab="#shirts-tab" class="qmenu-item tab-trigger active">Shirts</a>
+                <a href="#" data-tab="#accessories-tab" class="qmenu-item tab-trigger">Accessories</a>
+                <a href="#" data-tab="#our-world-tab" class="qmenu-item tab-trigger">Our world</a>
+            </div>
+            <!-- submenu cols -->
+            <div class="tabs">
+                <!-- shirts "tab" -->
+                <div class="tab animated" id="shirts-tab">
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="sub-header">Body fit</span>
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">Super Slim</a>
+                                </li>
+                                <li>
+                                    <a href="#">Slim</a>
+                                </li>
+                                <li>
+                                    <a href="#">contemporary</a>
+                                </li>
+                                <li>
+                                    <a href="#">Classic</a>
+                                </li>
+                                <li>
+                                    <a href="#">Extra long sleeve</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">All shirts</a>
+                                </li>
+                                <li>
+                                    <a href="#">New arrivals</a>
+                                </li>
+                                <li>
+                                    <a href="#">White shirts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Outlet</a>
+                                </li>
+                            </ul>
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">Size Guide</a>
+                                </li>
+                                <li>
+                                    <a href="#">Eton Express</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="sub-header">Collection</span>
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">Red Ribbon</a>
+                                </li>
+                                <li>
+                                    <a href="#">Green Ribbon</a>
+                                </li>
+                                <li>
+                                    <a href="#">Black Ribbon</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+                <!-- /shirts "tab" -->
+                <!-- accessories "tab" -->
+                <div class="row tab animated" id="accessories-tab">
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="sub-header">Accessories</span>
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">Ties</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pocket Squares</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scarves</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bow Ties</a>
+                                </li>
+                                <li>
+                                    <a href="#">Jewelery</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">Size Guide</a>
+                                </li>
+                                <li>
+                                    <a href="#">Eton Express</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /accessories "tab" -->
+                <!-- our world "tab" -->
+                <div class="row tab animated" id="our-world-tab">
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="sub-header">Inspiration</span>
+                            <ul class="submenu-list">
+                                <li>
+                                    <a href="#">About our shirts</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Eton</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sustainability</a>
+                                </li>
+                                <li>
+                                    <a href="#">Care Instructions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                        </div>
+                    </div>
+                </div>
+                <!-- /our world "tab" -->
+            </div>
+
+        </div>
+    </div>
+    <!-- content -->
+    <div class="l-wrap">
+        <div class="hero">
+            <div class="hero-img">
+                <a href="#">
+                    <img src="https://cdn.etonshirts.com/media/catalog/category/178-3_1.jpg" alt="" />
+                </a>
+            </div>
+            <div class="hero-body">
+                <a href="#">
+                    <h1 class="title-m">Spring / Summer 16</h1>
+                </a>
+                <p class="subtitle">Maecenas at ligula et diam accumsan ullamcorper congue in leo. Maecenas at
+                    <br> ligula et diam accumsan ullamcorper.</p>
+                <a href="#" class="button-blue">Explore Collection</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="featured-collection col-6">
+                <div class="featured-inner">
+                    <img src="https://cdn.etonshirts.com/media/catalog/category/178-2.jpg" alt="">
+                    <a href="#">
+                        <h2 class="title-m">The Essentials</h2>
+                    </a>
+                    <p class="subtitle">
+                        Curabitur blandit tempus porritor
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="featured-collection col-6">
+                <div class="featured-inner">
+                    <img src="https://cdn.etonshirts.com/media/catalog/category/Classicfit.jpg" alt="">
+                    <a href="#">
+                        <h2 class="title-m">Closet No 6</h2>
+                    </a>
+                    <p class="subtitle">
+                        Curabitur blandit tempus porritor
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="featured-collection col-6">
+                <div class="featured-inner">
+                    <img src="https://cdn.etonshirts.com/media/catalog/category/178-tie_1.jpg" alt="">
+                    <a href="#">
+                        <h2 class="title-m">Closet No 14</h2>
+                    </a>
+                    <p class="subtitle">
+                        Euismod aenean inceptus bibendum
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- featured products -->
+        <div class="row">
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/0/1/01968861719_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">Solid black dress shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">slim fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/3/0/30004251100_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">Blue indigo casual shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">super slim fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/2/6/26676151127_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">John Clark Print Shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">slim fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/2/6/26697951129_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">Red micro dots shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">classic fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/0/8/08512552322_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">navy cat print shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">slim fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-product col-3">
+                <div class="featured-inner">
+                    <a href="#">
+                        <img src="https://cdn.etonshirts.com/media/catalog/product/cache/small_image/600x/fe048ded4c6db6c6afa45b749bc258ce/0/1/01970066719_st.jpg"
+                            alt="">
+                    </a>
+                    <a href="#">
+                        <h2 class="title-s">light blue twill shirt</h2>
+                    </a>
+                    <p class="subtitle">
+                        <span class="fit">contemporary fit</span> /
+                        <span class="price">1295 sek</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <!-- bottom-menu -->
+        <div id="bottom-menu">
+            <div class="bt-menu-item">
+                <a href="#">Stores</a>
+            </div>
+            <div class="bt-menu-item">
+                <a href="#">Login</a>
+            </div>
+            <div class="bt-menu-item">
+                <a href="#" class="has-submenu">
+                    <img class="lang" src="img/sweden.png" alt=""> Sweden
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="submenu-list">
+                    <li>
+                        <a href="#">
+                            <img class="lang" src="img/norway.png" alt=""> Norway
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="lang" src="img/eu.png" alt=""> Europe
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- newsletter -->
+        <form action="" method="post" id="newsletterform">
+            <div class="form-container" id="newsletter-wrapper">
+                <div class="form-input-inline">
+                    <input type="text" class="form-element" placeholder="Your email">
+                    <button type="submit" class="form-element">Subscribe</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- social -->
+        <div id="social-wrapper">
+            <a href="#" class="social">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="social">
+                <i class="fa fa-pinterest"></i>
+            </a>
+            <a href="#" class="social">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+
+        <!-- link list -->
+        <div id="link-list">
+            <a href="#">customer care</a>
+            <a href="#">press</a>
+            <a href="#">pr agencies</a>
+            <a href="#">career</a>
+            <a href="#">retailers</a>
+        </div>
+
+        <!-- card logos -->
+        <div id="card-list">
+            <img src="img/visa.png" alt="Visa">
+            <img src="img/mastercard.png" alt="Mastercard">
+            <img src="img/amex.png" alt="American Express">
+            <img src="img/paypal.png" alt="PayPal">
+        </div>
+
+        <div id="copyright">
+            &copy; 2015 Eton. All rights reserved.
+        </div>
+    </div>
+    <!-- /footer -->
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
